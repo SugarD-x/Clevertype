@@ -3,7 +3,9 @@
 
 An extensive Javascript/Typescript wrapper for the cleverbot API
 
-#### Note: Unfortunately as of April 2018, a free trial key is no longer being offered. You can follow [this link](https://www.cleverbot.com/api/#abovetitle) to purchase a paid package instead.
+Get your Cleverbot API key [here](https://www.cleverbot.com/api/product/api-5k-free-trial/)
+
+#### Note: Only the first 5000 requests are free, you will be required to purchase a subscription or extra API calls later.
 
 # Example
 ## Get started in just a few lines
@@ -44,6 +46,7 @@ cleverbot.say('how are you', 'john');
 // john speaking again
 ``` 
 
+
 ## Important:
 
 If you're using a version before 1.1.3 make sure to update it as a dependency was updated to prevent random crashes.  
@@ -82,14 +85,13 @@ const config : Config = {
 const cleverbot = new Cleverbot(config);
 ```
 
-Clevertype also logs the number of calls you make per session.
+Clevertype also logs the number of calls you make per session
 ```typescript
 let calls : number = cleverbot.callAmount;
 ```
 
 # Full Documentation
 [Read the Wiki](https://github.com/ilocereal/Clevertype/wiki)
-
 ## Changes
 2.0.0 - Now supporting multi user mode which lets you coordinate conversations among multiple users with just an id.
 
@@ -101,8 +103,8 @@ let calls : number = cleverbot.callAmount;
 ## TODO
 - [x] Save conversation history, this should also take into account the mood that the call was made with as well as the time and CleverbotState.
 - [x] Option to start clevertype with a multi-user mode, saving a different CleverbotState for every unique id to allow coordinating multiple conversations at once without confusing contexts for different users.
-- [ ] Allow setting rate limiting options for conversations
+
 ### Note
 As useful as it would be, currently cleverbot does not return and information on the remaining API calls for your account, to track that you would have to implement some sort of persistent database yourself.
 
-#### Made for [Hifumi](https://github.com/ilocereal/Hifumi/)
+#### Made for [Alexa](https://github.com/ilocereal/Alexa/)

@@ -1,10 +1,10 @@
 {
   "name": "clevertype",
-  "version": "2.0.4",
-  "description": "An extensive Javascript/Typescript API wrapper for Cleverbot",
+  "version": "2.0.4.1",
+  "description": "An extensive Javascript/Typescript API wrapper for Cleverbot - Updated fork",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ilocereal/Clevertype"
+    "url": "https://github.com/SugarD-x/Clevertype"
   },
   "main": "dist/Cleverbot.js",
   "scripts": {
@@ -31,7 +31,7 @@
     "tslint": "^5.9.1"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.4",
     "iconv-lite": "^0.4.19",
     "moment": "^2.21.0",
     "typescript": "^2.7.2"
