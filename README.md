@@ -1,3 +1,5 @@
+CREDIT GOES TO THE ORIGINAL AUTHORS. This repository is only for informational sake, and bot dependencies without security vulnerabilities being included.
+
 ![](https://travis-ci.org/ilocereal/Clevertype.svg?branch=master)
 # Clevertype
 
