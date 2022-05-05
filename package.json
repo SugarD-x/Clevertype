@@ -33,7 +33,7 @@
   "dependencies": {
     "axios": "^0.21.4",
     "iconv-lite": "^0.4.19",
-    "moment": "^2.21.0",
+    "moment": "^2.29.2",
     "typescript": "^2.7.2"
   }
 }
